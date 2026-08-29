@@ -21,3 +21,6 @@ pnpm run build
 
 构建产物将生成在 `dist` 目录。
 
+## GitHub Pages
+
+项目已配置 GitHub Pages 自动发布流程。将源码推送到 `main` 分支后，在仓库的 **Settings → Pages → Build and deployment** 中将 Source 设为 **GitHub Actions**，随后等待 `Deploy GitHub Pages` 工作流完成。
